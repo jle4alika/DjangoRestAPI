@@ -27,17 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
-    # Сторонние приложения
     "rest_framework",
     "rest_framework_simplejwt",
     "django_filters",
-    # Наше приложение
-    "api",
-    # Встроенные приложения Django
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
